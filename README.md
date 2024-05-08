@@ -8,3 +8,4 @@ O `Multi-stage build` possibilita o usuário otimizar sua imagem para que ela fi
 #### Para acessar a imagem no docker hub basta acessar:
 <https://hub.docker.com/r/jvmedeirosr/prod-go>
 
+aaaa
