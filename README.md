@@ -8,4 +8,11 @@ O `Multi-stage build` possibilita o usuário otimizar sua imagem para que ela fi
 #### Para acessar a imagem no docker hub basta acessar:
 <https://hub.docker.com/r/jvmedeirosr/prod-go>
 
-aaaa
+
+|  Name   | Size  | Version |
+|  ----   | ----  | ------- |
+| golang  | 890MB | latest  |
+| golang  | 232MB | alpine  |
+| prod-go | 1.95MB| scratch + alpine|
+
+Veja, que a imagem construída com Multi-stage build no caso a `prod-go` ela é aproximadamente 450x mais leve do que uma imagem oficial go lang, logo temos que o processo de Multi-stage build é extremamente eficaz em muitos cenários o que nos leva a concluir que é uma boa prática, sempre que possível tentar otimizar suas imagens docker.
